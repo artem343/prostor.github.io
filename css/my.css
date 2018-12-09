@@ -33,3 +33,27 @@
 	z-index: 9999;
 	background: url(../img/loading_thick_circle.gif) center no-repeat #fff;
 }
+
+/* Responsive for cards on projects page */
+@media (min-width: 34em) {
+  .card-columns {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+  }
+}
+
+@media (min-width: 48em) {
+  .card-columns {
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+  }
+}
+
+/* For images on specific project page */
+
+.project-image {
+  width: 100%;
+  padding-bottom: 1rem;
+}

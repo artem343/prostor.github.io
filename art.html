@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru" class="no-js">
 
   <head>
 
@@ -23,21 +23,28 @@
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/my.css" rel="stylesheet">
 
+    <script src="vendor/jquery/jquery.js"></script>
+    <script type="text/javascript">
+      window.onload = function() {
+        $(".se-pre-con").delay(300).fadeOut("slow");
+      };
+    </script>
   </head>
 
   <body id="page-top">
+    <div class="se-pre-con"></div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <a class="navbar-brand" href="index.html">ПРОСТОР</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse navbar-inner" id="navbarText">
-        <ul class="navbar-nav mr-auto nav-center">
+      <div class="collapse navbar-collapse navbar-inner justify-content-center" id="navbarText">
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="index.html#projects">Проекты</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="about.html">О нас</a>
           </li>
           <li class="nav-item">
@@ -47,21 +54,32 @@
             <a class="nav-link" href="art.html">Искусство</a>
           </li>
         </ul>
-        <span class="navbar-text">
-          <ul class="navbar-nav ml-auto">
+      </div>
+        <div class="navbar-text justify-content-end">
+          <ul class="navbar-nav pull-right">
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fab fa-vk"></i></a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-behance"></i></a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
             </li>
-        </ul>
-        </span>
-      </div>
+          </ul>
+        </div>
     </nav>
+
+    <div class="container">
+      <section class="text_section section_one">
+        <p class="text-center" style="line-height: 3em">
+          Страница в разработке
+        </p>          
+      </section>
+    </div>
 
     <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
