@@ -57,3 +57,11 @@
   width: 100%;
   padding-bottom: 1rem;
 }
+
+/* Add top margin for some rows */
+.top-buffer { margin-top: 20px; }
+
+/* Slimmer card text paddings */
+.card-body {padding: 0.5rem;}
+
+.card-body > p {font-size: small; text-align: center;}
