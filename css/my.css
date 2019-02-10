@@ -65,3 +65,5 @@
 .card-body {padding: 0.5rem;}
 
 .card-body > p {font-size: small; text-align: center;}
+
+.my-nav-center-padded {padding-left: 8em;}
